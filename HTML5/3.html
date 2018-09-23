@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>LTW HTML5 Ex3</title>
+</head>
+
+<body>
+    <form action="save.php" method="get">
+        <label>Name
+            <input type="text" name="name" placeholder="Zachary Ernestus">
+        </label>
+        <br>
+
+        <fieldset>
+            <legend>Age</legend>
+            <input type="radio" name="age" value=">18">&lt;18
+            <input type="radio" name="age" value="19-35">19-35
+            <input type="radio" name="age" value="36-48">36-48
+            <input type="radio" name="age" value=">49">&gt;49
+        </fieldset>
+        <br>
+
+        <label>Profession
+            <input type="text" name="profession" placeholder="Spartan Baker">
+        </label>
+        <br>
+
+        <label>Country
+            <select name="country">
+                <option value="pt">Portugal</option>
+                <option value="es">Spain</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+            </select>
+        </label>
+        <br>
+
+        <label>Interests
+            <br>
+            <select name="interests" multiple>
+                <optgroup label="sports">
+                    <option value="hiking">Hiking</option>
+                    <option value="fencing">Fencing</option>
+                    <option value="surfing">Surfing</option>
+                </optgroup>
+                <optgroup label="music">
+                    <option value="jazz">Jazz</option>
+                    <option value="pimba">Pimba</option>
+                    <option value="pop">Pop</option>
+                </optgroup>
+                <optgroup label="food">
+                    <option value="spaghetti">Spaghetti like this website</option>
+                    <option value="beef">Beef</option>
+                    <option value="tagliatelle">Tagliatelle</option>
+                </optgroup>
+            </select>
+        </label>
+        <br>
+
+        <label>How did you find out about the site&quest;
+            <br>
+            <textarea name="found_out" cols="30" rows="10">LTW classes, random google search, etc&quest;</textarea>
+        </label>
+        <br>
+
+        <button type="submit">Submit Here!</button>
+    </form>
+</body>
+
+</html>
