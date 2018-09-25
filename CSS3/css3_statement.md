@@ -17,7 +17,7 @@ Some helper values:
 * Fonts used: Montserrat and Georgia.
 * Most paddings and margins are *1em*.
 
-Tip: You may have noticed that the *nav* section contains an *input* and a *label*. These are just to be used in *exercise 1.3* You can start by hiding them using CSS for now.
+**Tip:** You may have noticed that the *nav* section contains an *input* and a *label*. These are just to be used in *exercise 1.3* You can start by hiding them using CSS for now.
 
 ## 1.2 Positioning
 
@@ -31,18 +31,18 @@ Some helper values:
 
 **Tip:** Use a *flexbox* for the menu and a *grid* to position the elements in the page.
 
-##1.3 Responsive Design
+## 1.3 Responsive Design
 
 We will now make the design responsive by establishing two break points (**responsive.css**):
 
 * When the width of the window reaches **60em**, the sidebar should disappear and the page should occupy the full width (*100%*) of the window. The final result should be [this](https://www.fe.up.pt/~arestivo/page/files/exercises/css/news-tablet.html) .
-* When the width of the window reaches *30em*, the menu should collapse into a pull-down menu, the subtitle should not be shown and each news item title should be moved to above the item image. The final result should be [this](https://www.fe.up.pt/~arestivo/page/files/exercises/css/news-phone.html) .
+* When the width of the window reaches **30em**, the menu should collapse into a pull-down menu, the subtitle should not be shown and each news item title should be moved to above the item image. The final result should be [this](https://www.fe.up.pt/~arestivo/page/files/exercises/css/news-phone.html) .
 
 Some helper values:
 
 * Characters for the hamburger menu: \2630 (☰) and \2715 (✕).
 
-Tip: Start by making the menu without any animations (using display to hide and show the menu items). After that, try using transitions to change the height of each menu item instead.
+**Tip:** Start by making the menu without any animations (using display to hide and show the menu items). After that, try using transitions to change the height of each menu item instead.
 
 ## 1.4 Comments Design
 
@@ -62,9 +62,9 @@ Make sure that in smaller screens, the form fills the content area like [this](h
 
 **Without** using the *flexbox* and *grid* CSS layouts, try to recreate some designs.
 
-* Copy the following HTML code: [news.html](https://web.fe.up.pt/~arestivo/page/exercises/css/news) into a new .html file.
+* Copy the following HTML code: [news.html](https://web.fe.up.pt/~arestivo/page/exercises/css/news) into a new *.html* file.
 * Open it and observe its structure.
-* As you might have noticed, this document references a, not yet created, file named style.css as its style sheet. Create that file and modify it so that the page appearance becomes as similar to the following designs as possible: [style 1](https://www.fe.up.pt/~arestivo/page/files/exercises/css/style1.html) , [style 2](https://www.fe.up.pt/~arestivo/page/files/exercises/css/style2.html) and [style 3](https://www.fe.up.pt/~arestivo/page/files/exercises/css/style3.html)
+* As you might have noticed, this document references a, not yet created, file named *style.css* as its style sheet. Create that file and modify it so that the page appearance becomes as similar to the following designs as possible: [style 1](https://www.fe.up.pt/~arestivo/page/files/exercises/css/style1.html) , [style 2](https://www.fe.up.pt/~arestivo/page/files/exercises/css/style2.html) and [style 3](https://www.fe.up.pt/~arestivo/page/files/exercises/css/style3.html)
 * **Style 2** uses the following image: ![image for style 2](https://web.fe.up.pt/~arestivo/page/img/exercises/css/stripe.png)
 
 **Extra:** Now try the same exercises, this time using flexbox and grid layouts.
@@ -72,7 +72,7 @@ Make sure that in smaller screens, the form fills the content area like [this](h
 # 3. Blocks
 
 * Unzip the following file into some folder: [blocks.zip](https://www.fe.up.pt/~arestivo/page/files/exercises/css/blocks.zip)
-* Inside a file called style.css, try recreating each one of the four following designs using flexbox and grid layouts:
+* Inside a file called **style.css**, try recreating each one of the four following designs using flexbox and grid layouts:
 
 ## 3.1
 
@@ -105,6 +105,6 @@ Make sure that in smaller screens, the form fills the content area like [this](h
 
 * Green and orange blocks have half the height of the red and yellow ones.
 
-Solutions
+# Solutions
 
-Solutions for these CSS exercises.
+[Solutions](https://www.fe.up.pt/~arestivo/page/solutions/css/) for these CSS exercises.
