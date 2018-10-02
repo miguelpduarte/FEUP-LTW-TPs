@@ -60,6 +60,10 @@ nav#menu ul {
     height: 100%;
 }
 
+nav#menu ul li {
+    flex-grow: 1;
+}
+
 section#news {
     grid-column: 1 / span 1;
     grid-row: 3 / span 1;
