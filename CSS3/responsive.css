@@ -1,0 +1,57 @@
+@media screen and (max-width: 60em) {
+    :root {
+        --sidebar-width: 0%;
+    }
+}
+
+@media screen and (max-width: 30em) {
+    :root {
+        --sidebar-width: 0%;
+        --header-left-col: 0;
+    }
+
+    body > header div#signup {
+        text-align: left;
+        justify-self: start;
+        align-self: center;
+    }
+
+    body > header h2 {
+        display: none;
+    }
+
+    nav#menu label {
+        display: block;
+        font-size: 0;
+    }
+
+    nav#menu label:before {
+        content: "\2630";
+        font-size: 50px;
+        color: white;
+    }
+
+    nav#menu input:checked + label:before {
+        font-size: 40px;
+        content: "\2715";
+    }
+
+    nav#menu ul {
+        /* This is important to be auto and not 100%! */
+        height: auto;
+        max-height: 0;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: flex-start;
+        transition: max-height 1.5s;
+    }
+
+    nav#menu ul li {
+        border-top-width: 0;
+        border-left-width: 5px;
+    }
+
+    nav#menu input:checked ~ ul {
+        max-height: 20em;
+    }
+}
