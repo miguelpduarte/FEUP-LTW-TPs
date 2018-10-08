@@ -43,7 +43,7 @@
         overflow: hidden;
         flex-direction: column;
         align-items: flex-start;
-        transition: max-height 1.5s;
+        transition: max-height 0.5s;
     }
 
     nav#menu ul li {

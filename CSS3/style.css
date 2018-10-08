@@ -166,7 +166,7 @@ section#news article p {
     margin-right: 1em;
 }
 
-section#news article p:first-of-type::first-letter {
+section#news > article > p:first-of-type::first-letter {
     font-weight: bold;
     font-size: 200%;
 }
