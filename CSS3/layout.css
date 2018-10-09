@@ -15,8 +15,8 @@ body {
 }
 
 body > header {
-    grid-column: 1 / span 2;
-    grid-row: 1 / 1;
+    grid-column: span 2;
+    /* grid-row: 1 / 1; */
     display: grid;
     grid-template-columns: var(--header-left-col) auto;
     grid-template-rows: auto auto;
@@ -45,15 +45,11 @@ body > header div#signup {
 }
 
 aside {
-    grid-column: 2 / span 1;
-    grid-row: 2 / span 3;
-    transition: width 2s;
+    grid-column-start: 2;
+    grid-row: span 3;
 }
 
-nav#menu {
-    grid-column: 1 / span 1;
-    grid-row: 2 / span 1;
-}
+
 
 nav#menu ul {
     display: flex;
@@ -66,18 +62,9 @@ nav#menu ul li {
     flex-grow: 1;
 }
 
-section#news {
-    grid-column: 1 / span 1;
-    grid-row: 3 / span 1;
-}
-
-footer {
-    grid-column: 1 / span 1;
-    grid-row: 4 / span 1;
-}
-
 section#news article footer {
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
     width: 100%;
     box-sizing: border-box;
@@ -86,3 +73,20 @@ section#news article footer {
 .author {
     flex-grow: 1;
 }
+
+/* I had this and more but all of it is unnecessary */
+/* 
+nav#menu {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+}
+
+section#news {
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+}
+
+footer {
+    grid-column: 1 / span 1;
+    grid-row: 4 / span 1;
+}*/
