@@ -1,13 +1,32 @@
 @media screen and (max-width: 60em) {
-    :root {
-        --sidebar-width: 0%;
+    body {
+        grid-template-columns: auto;
+    }
+
+    body > header {
+        grid-column: span 1;
+    }
+
+    aside {
+        display: none;
     }
 }
 
 @media screen and (max-width: 30em) {
     :root {
-        --sidebar-width: 0%;
         --header-left-col: 0;
+    }
+
+    body {
+        grid-template-columns: auto;
+    }
+
+    body > header {
+        grid-column: span 1;
+    }
+
+    aside {
+        display: none;
     }
 
     body > header div#signup {
@@ -27,12 +46,11 @@
 
     nav#menu label:before {
         content: "\2630";
-        font-size: 50px;
+        font-size: 40px;
         color: white;
     }
 
     nav#menu input:checked + label:before {
-        font-size: 40px;
         content: "\2715";
     }
 
@@ -45,12 +63,12 @@
         align-items: flex-start;
         transition: max-height 0.5s;
     }
-
+    
     nav#menu ul li {
         border-top-width: 0;
         border-left-width: 5px;
     }
-
+    
     nav#menu input:checked ~ ul {
         max-height: 20em;
     }

@@ -16,7 +16,6 @@ body {
 
 body > header {
     grid-column: span 2;
-    /* grid-row: 1 / 1; */
     display: grid;
     grid-template-columns: var(--header-left-col) auto;
     grid-template-rows: auto auto;
@@ -48,8 +47,6 @@ aside {
     grid-column-start: 2;
     grid-row: span 3;
 }
-
-
 
 nav#menu ul {
     display: flex;
