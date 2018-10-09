@@ -1,14 +1,14 @@
 @media screen and (max-width: 60em) {
     body {
-        grid-template-columns: auto;
-    }
-
-    body > header {
-        grid-column: span 1;
+        display: block;
     }
 
     aside {
         display: none;
+    }
+
+    section#news article {
+        margin-right: 0;
     }
 }
 
@@ -17,12 +17,12 @@
         --header-left-col: 0;
     }
 
-    body {
-        grid-template-columns: auto;
+    section#news article {
+        margin-right: 0;
     }
 
-    body > header {
-        grid-column: span 1;
+    body {
+        display: block;
     }
 
     aside {
