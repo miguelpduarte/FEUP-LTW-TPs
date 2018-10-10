@@ -11,7 +11,7 @@ body {
     margin: 0 auto;
     display: grid;
     grid-template-columns: auto var(--sidebar-width);
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: auto auto 1fr auto;
 }
 
 body > header {
