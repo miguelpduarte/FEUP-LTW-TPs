@@ -1,0 +1,45 @@
+/* Everything has to be duplicated between register and login because a class was not used... lol */
+
+section#register, section#login {
+    font-family: 'Montserrat';
+}
+
+section#register > h1, section#login > h1 {
+    text-align: center;
+}
+
+section#register > form, section#login > form {
+    background-color: white;
+    padding: 1.5em;
+    margin: 0 auto;
+    max-width: 20em;
+    display: flex;
+    flex-direction: column;
+}
+
+section#register > form > label > input, section#login > form > label > input {
+    display: block;
+}
+
+section#register > form > label:first-of-type, section#login > form > label:first-of-type {
+    margin-top: 1em;
+}
+
+section#register > form > label, section#login > form > label {
+    margin-bottom: 2em;
+    font-weight: 600;
+}
+
+section#register form input[type=submit], section#login form input[type=submit] {
+    align-self: flex-end;
+    margin-bottom: 0;
+}
+
+section#register input:not([type=submit]), section#login input:not([type=submit]) {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin-top: 1em;
+}

@@ -15,10 +15,20 @@
 @media screen and (max-width: 30em) {
     :root {
         --header-left-col: 0;
+        --bg-color: white;
+    }
+
+    section#register, section#login {
+        background-color: white;
+    }
+
+    section#news {
+        margin-top: 0;
     }
 
     section#news article, footer:last-of-type {
         margin-right: 0;
+        margin-top: 0;
     }
 
     body {
