@@ -31,6 +31,7 @@ section#comments > article.comment > p:before {
 
 section#news form {
     background-color: #eeeeee;
+    margin-right: 1em;
 }
 
 section#news form h2 {

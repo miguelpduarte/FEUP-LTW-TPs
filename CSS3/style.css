@@ -160,7 +160,7 @@ section#news article {
     margin-right: 1em;
 }
 
-section#news article p {
+section#news > article > p {
     font-family: Georgia;
     margin-left: 1em;
     margin-right: 1em;
@@ -182,15 +182,15 @@ section#news article footer a {
     color: white;
 }
 
-.date {
+footer .date {
     margin: 0 1em;
 }
 
-.author::before {
+footer .author::before {
     content: 'By ';
 }
 
-.comments::after {
+footer .comments::after {
     content: ' comments';
 }
 

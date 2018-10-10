@@ -7,7 +7,7 @@
         display: none;
     }
 
-    section#news article {
+    section#news article, footer:last-of-type {
         margin-right: 0;
     }
 }
@@ -17,7 +17,7 @@
         --header-left-col: 0;
     }
 
-    section#news article {
+    section#news article, footer:last-of-type {
         margin-right: 0;
     }
 
