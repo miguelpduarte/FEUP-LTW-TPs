@@ -45,7 +45,7 @@ section#news form textarea {
     height: 10em;
 }
 
-section#news form input[type=submit] {
+form input[type=submit] {
     color: white;
     background-color: black;
     width: 5em;
