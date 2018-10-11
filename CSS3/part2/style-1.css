@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(200, 190, 255);
+    margin: 0 auto;
+    max-width: 45em;
+}
+
+#header {
+    color: white;
+    background-color: grey;
+    padding: 1em;
+}
+
+#menu {
+    color: white;
+    background-color: black;
+}
+
+#menu ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+#menu ul li {
+    display: inline-block;
+    padding: 1em 0;
+}
+
+#menu ul li:first-of-type {
+    margin-left: 1em;
+}
+
+#menu ul li:nth-child(n+2):before {
+    content: "|";
+    margin: 0 1em;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+}
+
+#content {
+    background-color: white;
+    padding: 1em;
+}
+
+#content h3:first-of-type {
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 0.4em;
+}
+
+#content .news-item img {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1.5em;
+}
+
+.introduction {
+    font-style: italic;
+}
+
+#content .news-item ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+#content .news-item ul li {
+    display: inline-block;
+    padding: 0.5em;
+    background-color: black;
+}
+
+#content .news-item ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.news-item {
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid black;
+}
+
+#footer {
+    background-color: white;
+    padding: 0.1em 1em 0 1em;
+}
+
+#footer p {
+    margin-bottom: 0;
+}
