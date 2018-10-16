@@ -1,0 +1,85 @@
+body {
+    margin-left: 5em;
+    background-image: url("stripe.png");
+}
+
+#header {
+    background-color: black;
+    color: white;
+    padding: 1em;
+}
+
+#menu {
+    background-color: rgb(61, 61, 61);
+}
+
+#menu ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+#menu ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+#menu a {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 2px;
+}
+
+#content {
+    background-color: white;
+}
+
+.news-item {
+    max-width: 800px;
+}
+
+#content h3:first-of-type {
+    margin-top: 0px;
+    padding-top: 5px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 0.4em;
+    margin-left: 8px;
+}
+
+#content .news-item img {
+    float: right;
+    margin-right: 1em;
+    margin-bottom: 1.5em;
+}
+
+#content .news-item p:first-of-type {
+    font-style: italic;
+}
+
+#content .news-item p {
+    margin-left: 8px;
+}
+
+#content .news-item a {
+    text-decoration: none;
+    color: brown;
+}
+
+/* aa */
+
+
+#footer {
+    max-width: 800px;
+    /* padding: 0.1em 1em 0 1em; */
+    height: auto;
+}
+
+#footer p {
+    background-color: white;
+    float: right;
+    /* margin-bottom: 0; */
+}
