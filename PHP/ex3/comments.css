@@ -1,0 +1,54 @@
+section#comments {
+    margin-left: 1em;
+}
+
+section#comments > article.comment > p {
+    background-color: #eeeeee;
+    font-family: Georgia;
+    padding: 1em;
+}
+
+section#comments > article.comment > p:before {
+    content: "\201C";
+    font-size: 2.5em;
+    opacity: 0.15;
+}
+
+.comment .user {
+    font-style: italic;
+    font-weight: 500;
+}
+
+.comment .user:after {
+    content: " said:";
+    font-style: normal;
+}
+
+.comment .date {
+    float: right;
+    font-weight: 500;
+}
+
+section#news form {
+    background-color: #eeeeee;
+    margin-right: 1em;
+}
+
+section#news form h2 {
+    font-size: 15px;
+}
+
+/* this one is meh */
+section#news form textarea {
+    background-color: white;
+    width: 60em;
+    height: 10em;
+}
+
+form input[type=submit] {
+    color: white;
+    background-color: black;
+    width: 5em;
+    margin: 1em 0;
+    padding: 1em 0;
+}
