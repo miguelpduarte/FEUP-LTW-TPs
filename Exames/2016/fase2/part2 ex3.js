@@ -14,7 +14,10 @@ document.querySelectorAll("#keypad > a")
 const username_input = document.querySelector("form#pin > input[name=username]");
 
 document.querySelector("form#pin > input[type=submit]")
-    .addEventListener("click", () => {
+    .addEventListener("click", (evt) => {
+        // Because the submission is done via Ajax, so we stop the regular form submission
+        evt.preventDefault();
+
         let xhr = new XMLHttpRequest();
         xhr.addEventListener("load", () => {
             // Debating between this and JSON.parse(xhr.responseText) -- no conclusion was reached
