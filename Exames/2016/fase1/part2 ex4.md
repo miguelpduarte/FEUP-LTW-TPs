@@ -1,1 +1,1 @@
-The solutions for XSD exercises can be found [here.](../../../Secret/wow/yuhere/solution.md)
+The solutions for XSD exercises can be found [here.](../../../Other/Secret/wow/yuhere/solution.md)
