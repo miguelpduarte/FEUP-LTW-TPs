@@ -1,0 +1,23 @@
+2)
+a)
+/pack.*pack/
+How many yaks could a yak [pack pack if a yak pack could pack] yaks
+b)
+/[pack]{2}/
+How many y[ak]s could a yak pack pack if a yak pack could pack yaks
+c)
+/(yak|pack).*\1/
+How many [yaks could a yak pack pack if a yak pack could pack yak]s
+d)
+/[^aeiou]{3}/
+Ho[w m]any yaks could a yak pack pack if a yak pack could pack yaks
+(3 consecutive non-vowels - whitespace is not a vowel lol, gotcha)
+e)
+/(?<!ya)k/
+How many yaks could a yak pac[k] pack if a yak pack could pack yaks
+f)
+/(\w{3,}?).*?\1/
+How many [yaks could a yak] pack pack if a yak pack could pack yaks
+
+PS:
+A yak pack would pack as many yaks as a yak pack could pack if a yak pack could pack yaks
