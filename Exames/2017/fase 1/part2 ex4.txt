@@ -1,0 +1,5 @@
+4)
+a) //authors/author/@name
+b) //authors/author/book[@type='Novel']/text()
+c) //authors/author[count(book) > 1]/@name
+d) //authors/author[book/text() = 'Ensaio sobre a Cegueira']/@country

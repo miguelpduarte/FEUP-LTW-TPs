@@ -1,0 +1,10 @@
+1) A
+2) D
+3) C
+4) A
+5) 10
+6) Because it will most likely interact with the DOM and thus the DOM needs to already be loaded
+7)
+Because it does not (or should not) rely on any state in either of the participants in the communication, being it that all the relevant information is always included in the transactions.
+
+8) D provavelmente mas não sai lmao

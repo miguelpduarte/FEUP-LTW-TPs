@@ -1,0 +1,13 @@
+1) D
+2) A
+3) C
+4) C
+5) A
+6) C
+
+7)
+descendant-or-self::person/child::job
+
+Retrives all of the jobs that are direct childs of any person node
+
+8) Não sai XSD
