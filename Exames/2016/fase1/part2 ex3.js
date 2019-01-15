@@ -12,7 +12,6 @@ password_input.addEventListener("blur", () => {
 });
 
 // b
-
 const username_input = document.querySelector("form#register > input[name=username]");
 
 document.querySelector("form#register > input[type=submit]")
