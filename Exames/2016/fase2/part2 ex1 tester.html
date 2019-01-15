@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+ul li:first-child {color: red;}
+#profile.box .name {color: blue;}
+#profile li ~ li ~ li {color: green;}
+
+#profile .address {color: magenta;}
+div ul li.address {color: yellow;}
+a {color: cyan;}
+</style>
+<body>
+    <div id="profile" class="box">
+        <h2 class="name">John Doe</h2>
+        <ul>
+            <li><a href="www.johndoe.com">Website</a></li>
+            <li class="phone">111-222-333</li>
+            <li class="address">Saint Doe Street, 123</li>
+        </ul>
+    </div>
+</body>
+</html>

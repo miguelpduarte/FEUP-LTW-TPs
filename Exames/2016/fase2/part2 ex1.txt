@@ -9,11 +9,11 @@ R6 - 0,0,0,1
 b)
 John Doe - blue
 Website - blue (anchor default)
-111-222-333 - default (inherit)
+111-222-333 - default (inherit/black)
 Saint Doe Street, 123 - green
 
 c)
 John Doe - blue
 Website - cyan
-111-222-333 - default (inherit)
+111-222-333 - default (inherit/black)
 Saint Doe Street, 123 - magenta
