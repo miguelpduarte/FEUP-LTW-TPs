@@ -1,0 +1,9 @@
+4)
+a)
+//authors/author/book/text()
+b)
+//authors/author/book[@year > 1900]/text()
+c)
+//authors/author[@country='England']/book/@year
+d)
+//authors/author[book/@type = 'Novel']/@name

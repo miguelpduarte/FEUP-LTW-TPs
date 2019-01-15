@@ -1,0 +1,16 @@
+<authors>
+    <author country="Spain" name="Miguel de Cervantes">
+        <book year="1605" type="Novel">Don Quixote</book>
+    </author>
+    <author country="England" name="William Shakespeare">
+        <book year="1599" type="Tragedy">Hamlet</book>
+        <book year="1606" type="Tragedy">Macbeth</book>
+    </author>
+    <author country="Russia" name="Leo Tolstoy">
+        <book year="1865" type="Novel">War and Peace</book>
+    </author>
+    <author country="Portugal" name="Jose Saramago">
+        <book year="1995" type="Novel">Ensaio sobre a Cegueira</book>
+        <book year="1997" type="Novel">Todos os Nomes</book>
+    </author>
+</authors>
