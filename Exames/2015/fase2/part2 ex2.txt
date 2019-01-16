@@ -1,0 +1,15 @@
+2)
+a)
+The thirty-three thieves thought that they thril[led the throne thro]ughout Thursday.
+b)
+The [thirty]-three thieves thought that they thrilled the throne throughout Thursday.
+c)
+The thirty-three thieves thought that they thrilled the throne throughout Thursday.
+
+No match: \1 is inside the first group lmao
+d)
+The thirty-three thieves thought that they thri[lled the throne ]throughout Thursday.
+e)
+The thirty-[thr]ee thieves thought that they thrilled the throne throughout Thursday.
+f)
+The thirty-three thieves thought that they thrilled the throne thr[o]ughout Thursday.
