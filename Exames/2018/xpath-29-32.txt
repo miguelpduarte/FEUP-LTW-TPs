@@ -1,1 +1,11 @@
 29)
+//recipes/recipe/name/text()
+
+30)
+//recipes/recipe[@difficulty="medium"]/name/text()
+
+31)
+//recipes/recipe[description]/@difficulty
+
+32)
+//recipes/recipe[count(ingredients/ingredient) > 3]/name/text()
