@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+.selected {color: blue;}
+li + li {color: green;}
+#selection .other li {color: yellow ;}
+
+ul :first-child {color: magenta ;}
+#selection p {color: red;}
+#selection li:first-child {color: cyan;}
+</style>
+<body>
+    <div id="selection">
+        <p><a href="">Two Lists</a></p>
+        <ul>
+            <li class="selected">First</li>
+            <li>Second</li>
+        </ul>
+        <ol class="other">
+            <li>Third</li>
+        </ol>
+    </div>
+</body>
+
+</html>

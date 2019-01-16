@@ -1,0 +1,20 @@
+1)
+a)
+R1 - 0,0,1,0
+R2 - 0,0,0,2
+R3 - 0,1,1,1
+R4 - 0,1,1,1
+R5 - 0,0,1,1
+R6 - 0,1,1,1
+
+b)
+Two Lists - blue (anchor default)
+1st First - blue
+2nd Second - green
+Third - yellow
+
+c)
+Two Lists - blue (anchor default)
+First - cyan
+Second - green
+Third - cyan
