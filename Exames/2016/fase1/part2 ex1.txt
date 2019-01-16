@@ -18,4 +18,4 @@ c)
 Title - green
 1st Par - cyan
 2nd Par - yellow
-Footer - yellow
+Footer - red
