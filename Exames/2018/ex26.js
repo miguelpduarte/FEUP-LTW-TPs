@@ -1,5 +1,8 @@
-const input = document.querySelector("input[type='text']");
-document.querySelectorAll("ul li").forEach((item) => {item.addEventListener("click", handler)});
+const input = document.querySelector("section#game > input[name=guess]");
+document.querySelectorAll("section#game > ul > li")
+	.forEach((item) => {
+		item.addEventListener("click", handler)
+	});
 
 function handler() {
 	if (this.classList.contains("used")) {
@@ -7,8 +10,7 @@ function handler() {
 	}
 	
 	this.classList.add("used");
-	const letter = this.text;
-
+	const letter = this.textContent;
 
 	input.value += letter;
 }
