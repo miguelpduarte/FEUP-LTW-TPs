@@ -33,6 +33,7 @@ const correct = () => {
     xhr.addEventListener("error", () => {
         alert("script unsuccessful");
     });
+    xhr.setRequestHeader("Content-Type", "application/json");
     xhr.open("post", "save_score.php", true);
     xhr.send(JSON.stringify({
         username: username_input.value,
