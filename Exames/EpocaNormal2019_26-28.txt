@@ -1,0 +1,57 @@
+// DISCLAIMER: NONE OF THIS WAS TESTED, USE AT YOUR OWN PERIL
+
+// 26
+<?php
+include_once('game.php');
+
+if(!empty($_POST['position']) {
+    play($_POST['id'], $_POST['position']);
+}
+
+echo json_encode(state($_POST['id']));
+exit;
+?>
+
+// 27
+
+const game_id = document.querySelector("section#tic-tac-toe").getAttribute("data-id");
+const game_state_p = document.querySelector("section#tic-tac-toe > p#state");
+const game_squares = document.querySelectorAll("section#tic-tac-toe > div.square");
+
+let xhr = new XMLHttpRequest();
+xhr.addEventListener("load", () => {
+	updateGame(JSON.parse(xhr.responseText));
+});
+xhr.open("post", "play.php", true);
+xhr.setRequestHeader("Content-Type", "application/json");
+xhr.send(JSON.stringify({"id": game_id}));
+
+const updateGame = (new_state) => {
+	const game_state = new_state.state;
+	const squares = new_state.squares;
+	
+	game_state_p.textContent = game_state;
+	
+	for (let i = 0; i < squares.length; ++i) {
+		game_squares[i].textContent = squares[i];
+	}
+};
+
+// 28
+
+game_squares.forEach((game_square, curr_idx) => {
+	game_square.addEventListener("click", () => {
+		if (game_square.textContent) {
+			// Square not empty, abort!
+			return;
+		}
+		
+		let req = new XMLHttpRequest();
+		req.addEventListener("load", () => {
+			updateGame(JSON.parse(req.responseText));
+		});
+		req.open("post", "play.php", true);
+		req.setRequestHeader("Content-Type", "application/json");
+		req.send(JSON.stringify({"id": game_id, "position": curr_idx}));
+	});
+});
